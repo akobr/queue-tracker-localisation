@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MoreAbout" xml:space="preserve">
+    <value>O aplikaci...</value>
+  </data>
+  <data name="ActionHelpText" xml:space="preserve">
+    <value>Nyní lze zařízení použít pro jiné aktivity, ale nezapomeň se vrátit, až budeš první ve frontě :)</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="GeneralErrorMessage" xml:space="preserve">
+    <value>Služba je momentálně nedostupná. Naši inženýři již pracují na opravě.</value>
+  </data>
+  <data name="GeneralErrorTitle" xml:space="preserve">
+    <value>Trochu trapné, ale...</value>
+  </data>
+  <data name="InQueueTitle" xml:space="preserve">
+    <value>Ve frontě</value>
+  </data>
+  <data name="MeasurementCanceledMessage" xml:space="preserve">
+    <value>Měření bylo ukončeno.</value>
+  </data>
+  <data name="MeasurementErrorMessageSameQueue" xml:space="preserve">
+    <value>Druhé měření v řadě ve stejné frontě je zakázáno.</value>
+  </data>
+  <data name="MeasurementErrorMessageTime" xml:space="preserve">
+    <value>Měření lze vytvářet jen jednou za 4 minuty. Prosím vraťte se později.</value>
+  </data>
+  <data name="MeasurementThanksMessage" xml:space="preserve">
+    <value>Díky za měření.</value>
+  </data>
+  <data name="MoreOptions" xml:space="preserve">
+    <value>Více možností</value>
+  </data>
+  <data name="NewPlaceErrorMessageTime" xml:space="preserve">
+    <value>Nové místo lze vytvořit jen jednou za 5 minut. Prosím vraťte se později.</value>
+  </data>
+  <data name="RemainingTimeTitle" xml:space="preserve">
+    <value>Zbývající čas (přibližně)</value>
+  </data>
+  <data name="RulesErrorTitle" xml:space="preserve">
+    <value>Zatracená pravidla...</value>
+  </data>
+  <data name="MoreShareApp" xml:space="preserve">
+    <value>Sdílet aplikaci...</value>
+  </data>
+  <data name="ShareRecordQuoteFormatWithoutValue" xml:space="preserve">
+    <value>Čekám ve frontě na {0}.</value>
+  </data>
+  <data name="ShareRecordQuoteFormatWithValue" xml:space="preserve">
+    <value>Ve frontě na {0}, čeká se {1}.</value>
+  </data>
+  <data name="MoreTutorial" xml:space="preserve">
+    <value>Návod...</value>
+  </data>
+  <data name="ActionButtonInProgress" xml:space="preserve">
+    <value>v průběhu</value>
+  </data>
+  <data name="CreatePlaceEntryInitialsLabel" xml:space="preserve">
+    <value>Iniciály</value>
+  </data>
+  <data name="CreatePlaceEntryNameLabel" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="CreatePlaceSaveButton" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="CreatePlaceTitle" xml:space="preserve">
+    <value>Tvorba nové fronty</value>
+  </data>
+  <data name="CreatePlaceValidationInitialsContent" xml:space="preserve">
+    <value>Iniciály mohou obsahovat pouze písmena či číslice.</value>
+  </data>
+  <data name="CreatePlaceValidationInitialsMaxLength" xml:space="preserve">
+    <value>Maximální délka iniciálů je tři.</value>
+  </data>
+  <data name="CreatePlaceValidationNameContent" xml:space="preserve">
+    <value>Název musí obsahovat minimálně jedno písmeno či číslici.</value>
+  </data>
+  <data name="CreatePlaceValidationNameMinLength" xml:space="preserve">
+    <value>Název musí být vyplňen, minimálně dva znaky.</value>
+  </data>
+  <data name="MapTitle" xml:space="preserve">
+    <value>Fronty na mapě</value>
+  </data>
+  <data name="HelpUsSimpleText" xml:space="preserve">
+    <value>Pomoz nám a sdílej apku.</value>
+  </data>
+  <data name="PlaceListNoData" xml:space="preserve">
+    <value>Jejda, nebyla nalezena žádná fronta :(</value>
+  </data>
+  <data name="PlaceSelectionCancelButton" xml:space="preserve">
+    <value>ZRUŠIT</value>
+  </data>
+  <data name="PlaceSelectionNoData" xml:space="preserve">
+    <value>Jejda, žádná měřitelná fronta v dohledu :(</value>
+  </data>
+  <data name="PlaceSelectionTitle" xml:space="preserve">
+    <value>Vybrat frontu</value>
+  </data>
+  <data name="StartRecordFinishButton" xml:space="preserve">
+    <value>DOKONČIT</value>
+  </data>
+  <data name="ToolbarItemAbout" xml:space="preserve">
+    <value>o apce</value>
+  </data>
+  <data name="ToolbarItemMap" xml:space="preserve">
+    <value>mapa</value>
+  </data>
+  <data name="ToolbarItemMeasure" xml:space="preserve">
+    <value>měřit</value>
+  </data>
+  <data name="ToolbarItemMore" xml:space="preserve">
+    <value>více</value>
+  </data>
+  <data name="ToolbarItemShare" xml:space="preserve">
+    <value>sdílet</value>
+  </data>
+  <data name="ToolbarItemTutorial" xml:space="preserve">
+    <value>návod</value>
+  </data>
+  <data name="Tutorial01Page01Sentence01" xml:space="preserve">
+    <value>Jednoduše </value>
+  </data>
+  <data name="Tutorial01Page01Sentence02" xml:space="preserve">
+    <value>sleduj a hledej</value>
+  </data>
+  <data name="Tutorial01Page01Sentence03" xml:space="preserve">
+    <value> čekací doby pro zábavní parky, úřady a jiné instituce.</value>
+  </data>
+  <data name="Tutorial01Page02Sentence01" xml:space="preserve">
+    <value>Místa lze vyhledávat či zobrazit na </value>
+  </data>
+  <data name="Tutorial01Page02Sentence02" xml:space="preserve">
+    <value>mapě</value>
+  </data>
+  <data name="Tutorial01Page02Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Tutorial02Page01Sentence01" xml:space="preserve">
+    <value>Když jsi na začátku fronty, měření zahájíš tlačítkem </value>
+  </data>
+  <data name="Tutorial02Page01Sentence02" xml:space="preserve">
+    <value>měřit</value>
+  </data>
+  <data name="Tutorial02Page01Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Tutorial02Page02Sentence01" xml:space="preserve">
+    <value>Během měření můžeš aplikaci dále používat, uspat i zavřít.</value>
+  </data>
+  <data name="Tutorial03Page01Sentence01" xml:space="preserve">
+    <value>V momentu, kdy se dostaneš na řadu, měření jednoduše ukončíš </value>
+  </data>
+  <data name="Tutorial03Page01Sentence02" xml:space="preserve">
+    <value>stejným tlačítkem</value>
+  </data>
+  <data name="Tutorial03Page01Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Tutorial03Page02Sentence01" xml:space="preserve">
+    <value>Všichni uživatelé uvidí aktualizovaný stav fronty.</value>
+  </data>
+  <data name="Tutorial04Page01Sentence01" xml:space="preserve">
+    <value>Vše funguje na </value>
+  </data>
+  <data name="Tutorial04Page01Sentence02" xml:space="preserve">
+    <value>principu C2C</value>
+  </data>
+  <data name="Tutorial04Page01Sentence03" xml:space="preserve">
+    <value> (uživatel pro uživatele), obsah generován aktivními uživateli.</value>
+  </data>
+  <data name="Tutorial04Page02Sentence01" xml:space="preserve">
+    <value>Čím více bude apka využívána, tím přesnější časy, pomoc nám ji </value>
+  </data>
+  <data name="Tutorial04Page02Sentence02" xml:space="preserve">
+    <value>sdílet</value>
+  </data>
+  <data name="Tutorial04Page02Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="TutorialDoneButton" xml:space="preserve">
+    <value>Ano, chápu</value>
+  </data>
+  <data name="TutorialNextButton" xml:space="preserve">
+    <value>Další</value>
+  </data>
+  <data name="TutorialShareButton" xml:space="preserve">
+    <value>Sdílet</value>
+  </data>
+  <data name="TutorialSkipAllButton" xml:space="preserve">
+    <value>Přeskočit vše</value>
+  </data>
+  <data name="TutorialTitle" xml:space="preserve">
+    <value>Návod</value>
+  </data>
+  <data name="AboutFirstParagraph" xml:space="preserve">
+    <value>Queue Tracker ti umožňuje sledovat fronty a čekací doby v zábavních parcích, na úřadech a jiných institucích.</value>
+  </data>
+  <data name="AboutSecondParagraph" xml:space="preserve">
+    <value>Jsme mladá společnost se zaměřením na vývoj mobilních aplikací. Pokud nás chcete podpořit, prosím sdílejte aplikaci nebo navštivte naše stránky pro více informací.</value>
+  </data>
+  <data name="AboutShareButton" xml:space="preserve">
+    <value>sdílet</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="AboutWebsiteButton" xml:space="preserve">
+    <value>webovky</value>
+  </data>
+  <data name="CreatePlaceEntryInitialsPlaceholderAndroid" xml:space="preserve">
+    <value>Iniciály</value>
+  </data>
+  <data name="CreatePlaceEntryInitialsPlaceholderIos" xml:space="preserve">
+    <value>ABC</value>
+  </data>
+  <data name="CreatePlaceEntryNamePlaceholderAndroid" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="CreatePlaceEntryNamePlaceholderIos" xml:space="preserve">
+    <value>Nová fronta</value>
+  </data>
+  <data name="CreatePlaceHeader" xml:space="preserve">
+    <value>NOVÁ FRONTA NA VAŠÍ POZICI</value>
+  </data>
+  <data name="CreateNewPlaceAction" xml:space="preserve">
+    <value>Vytvořit frontu</value>
+  </data>
+  <data name="HelpUsOnRecordText" xml:space="preserve">
+    <value>Dej vědět kámošům, v které frontě jsi se zasekl.</value>
+  </data>
+  <data name="RoundedSaveButton" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="RoundedShareButton" xml:space="preserve">
+    <value>SDÍLET</value>
+  </data>
+  <data name="RoundedVisitUsButton" xml:space="preserve">
+    <value>STRÁNKY</value>
+  </data>
+  <data name="TipText01" xml:space="preserve">
+    <value>Nyní lze zařízení použít pro jiné aktivity, ale nezapomeň se vrátit, až budeš první ve frontě. (:</value>
+  </data>
+  <data name="TipText02" xml:space="preserve">
+    <value>Fronty je možné vyhledávat na hlavní stránce aplikace z boxu pro vyhledávání.</value>
+  </data>
+  <data name="TipText03" xml:space="preserve">
+    <value>Fronty lze zobrazit a hledat na mapě, na kterou je možné se navigovat z hlavní stránky aplikace.</value>
+  </data>
+  <data name="TipText04" xml:space="preserve">
+    <value>Novou frontu je možné vytvořit z dialogu výběru fronty pro měření (vždy poslední položka v seznamu).</value>
+  </data>
+  <data name="TipText05" xml:space="preserve">
+    <value>Čím více bude aplikace využívána, tím přesnější hodnoty front bude obsahovat, prosím pomoc nám ji sdílet.</value>
+  </data>
+  <data name="TipText06" xml:space="preserve">
+    <value>Během měření této fronty můžeš své utrpení sdílet s přáteli na facebooku. (:</value>
+  </data>
+  <data name="TipText07" xml:space="preserve">
+    <value>Pokud se nacházíš v zábavním parku, apka automaticky zobrazí fronty pro nejoblíbenější atrakce.</value>
+  </data>
+  <data name="TipText08" xml:space="preserve">
+    <value>Každé nadřazené místo, například zábavní park či úřad, lze rozkliknout a zobrazit vnořené fronty.</value>
+  </data>
+  <data name="TipText09" xml:space="preserve">
+    <value>Aplikace je stále rozšiřována a pravidelně aktualizována, nová funkcionalita již brzy!</value>
+  </data>
+  <data name="TipText10" xml:space="preserve">
+    <value>Po dostatečném počtu měření od aktivních uživatelů bude možné v aplikaci sledovat historii a dělat predikci front.</value>
+  </data>
+  <data name="TimeDurationTitle" xml:space="preserve">
+    <value>Čas ve frontě</value>
+  </data>
+  <data name="TipTitle" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="NoNetworkPageMessage" xml:space="preserve">
+    <value>Ale né... internetové připojení je fuč, prosím zkontroluj nastavení.</value>
+  </data>
+  <data name="NoNetworkDialogDismissButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NoNetworkDialogMessage" xml:space="preserve">
+    <value>Chcete-li načíst data, zapněte Mobilní data nebo použijte Wi-Fi.</value>
+  </data>
+  <data name="NoNetworkDialogSettingsButton" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="NoNetworkDialogTitle" xml:space="preserve">
+    <value>Mobilní data jsou vypnuta</value>
+  </data>
+  <data name="CreatePlaceValidationNoLocation" xml:space="preserve">
+    <value>Přístup k poloze musí být povolen a služba zapnuta, aby bylo možné vytvářet nové fronty.</value>
+  </data>
+  <data name="CreatePlaceValidationNoNetwork" xml:space="preserve">
+    <value>Pro vytvoření nové fronty si zapni mobilní data nebo Wi-Fi.</value>
+  </data>
+  <data name="TipText11" xml:space="preserve">
+    <value>Pro lyžařské areály připravujeme speciální funkcionalitu s plně automatickým měřením.</value>
+  </data>
+  <data name="TipText12" xml:space="preserve">
+    <value>Aplikace obsahuje mnoho předdefinovaných míst, například zábavní parky, lyžařská střediska, úřady, nebo letiště.</value>
+  </data>
+  <data name="TipText13" xml:space="preserve">
+    <value>Databáze front se stále rozšiřuje a přispět můžeš i ty.</value>
+  </data>
+  <data name="TipText14" xml:space="preserve">
+    <value>Pořádáš velkou akci a chceš svým návštěvníkům nabídnout přesné čekací doby? Kontaktuj nás!</value>
+  </data>
+  <data name="AdvertisementTitle" xml:space="preserve">
+    <value>Reklama</value>
+  </data>
+  <data name="CreatePlaceValidationInitialsMinLength" xml:space="preserve">
+    <value>Iniciály musí být vyplněny.</value>
+  </data>
+  <data name="PlaceCellDeleteMenuAction" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="PlaceCellMeasureMenuAction" xml:space="preserve">
+    <value>Měřit</value>
+  </data>
+  <data name="PlaceCellOpenMenuAction" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="PlaceDeletedMessage" xml:space="preserve">
+    <value>Místo bylo smazáno.</value>
+  </data>
+  <data name="PlaceSelectionNoLocation" xml:space="preserve">
+    <value>Fronty nelze měřit, pokud neudělíš aplikaci povolení či služba o poloze je vypnuta.</value>
+  </data>
+</root>

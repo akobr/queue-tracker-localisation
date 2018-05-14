@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MoreAbout" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="ActionHelpText" xml:space="preserve">
+    <value>You can use the device for other activities, but don’t forget to come back, when you're first in line :)</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GeneralErrorMessage" xml:space="preserve">
+    <value>Service is temporarily unavailable. Our engineers are working quickly to resolve the issue.</value>
+  </data>
+  <data name="GeneralErrorTitle" xml:space="preserve">
+    <value>Well, this is embarrassing.</value>
+  </data>
+  <data name="InQueueTitle" xml:space="preserve">
+    <value>In queue</value>
+  </data>
+  <data name="MeasurementCanceledMessage" xml:space="preserve">
+    <value>The messurement has been canceled.</value>
+  </data>
+  <data name="MeasurementErrorMessageSameQueue" xml:space="preserve">
+    <value>Do a measurement in the same queue in a row is prohibited.</value>
+  </data>
+  <data name="MeasurementErrorMessageTime" xml:space="preserve">
+    <value>New record can be created only ones per 4 minutes. Please try again later.</value>
+  </data>
+  <data name="MeasurementThanksMessage" xml:space="preserve">
+    <value>Thanks for the measurement.</value>
+  </data>
+  <data name="MoreOptions" xml:space="preserve">
+    <value>More options</value>
+  </data>
+  <data name="NewPlaceErrorMessageTime" xml:space="preserve">
+    <value>New place can be created only ones per 5 minutes. Please try again later.</value>
+  </data>
+  <data name="RemainingTimeTitle" xml:space="preserve">
+    <value>Remaining time (approximately)</value>
+  </data>
+  <data name="RulesErrorTitle" xml:space="preserve">
+    <value>Damn rules...</value>
+  </data>
+  <data name="MoreShareApp" xml:space="preserve">
+    <value>Share app...</value>
+  </data>
+  <data name="ShareRecordQuoteFormatWithoutValue" xml:space="preserve">
+    <value>Waiting in queue at {0}.</value>
+  </data>
+  <data name="ShareRecordQuoteFormatWithValue" xml:space="preserve">
+    <value>Waiting in queue at {0}, current waiting time is {1}.</value>
+  </data>
+  <data name="MoreTutorial" xml:space="preserve">
+    <value>Tutorial...</value>
+  </data>
+  <data name="ActionButtonInProgress" xml:space="preserve">
+    <value>in progress</value>
+  </data>
+  <data name="CreatePlaceEntryInitialsLabel" xml:space="preserve">
+    <value>Initials</value>
+  </data>
+  <data name="CreatePlaceEntryNameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreatePlaceSaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="CreatePlaceTitle" xml:space="preserve">
+    <value>Create new queue</value>
+  </data>
+  <data name="CreatePlaceValidationInitialsContent" xml:space="preserve">
+    <value>Initials can contain only letters or numbers.</value>
+  </data>
+  <data name="CreatePlaceValidationInitialsMaxLength" xml:space="preserve">
+    <value>Maximal length of initials is 3 characters.</value>
+  </data>
+  <data name="CreatePlaceValidationNameContent" xml:space="preserve">
+    <value>Name must contain at least one letter or number.</value>
+  </data>
+  <data name="CreatePlaceValidationNameMinLength" xml:space="preserve">
+    <value>The place name needs to be filled in, at least two characters.</value>
+  </data>
+  <data name="MapTitle" xml:space="preserve">
+    <value>Queues on map</value>
+  </data>
+  <data name="HelpUsSimpleText" xml:space="preserve">
+    <value>Help us and share this app.</value>
+  </data>
+  <data name="PlaceListNoData" xml:space="preserve">
+    <value>Oops, no queue has been found :(</value>
+  </data>
+  <data name="PlaceSelectionCancelButton" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="PlaceSelectionNoData" xml:space="preserve">
+    <value>Oops, no measurable queue in sight :(</value>
+  </data>
+  <data name="PlaceSelectionTitle" xml:space="preserve">
+    <value>Select queue</value>
+  </data>
+  <data name="ToolbarItemAbout" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="ToolbarItemMap" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="ToolbarItemMeasure" xml:space="preserve">
+    <value>measure</value>
+  </data>
+  <data name="ToolbarItemMore" xml:space="preserve">
+    <value>more</value>
+  </data>
+  <data name="ToolbarItemShare" xml:space="preserve">
+    <value>share</value>
+  </data>
+  <data name="ToolbarItemTutorial" xml:space="preserve">
+    <value>tutorial</value>
+  </data>
+  <data name="AboutFirstParagraph" xml:space="preserve">
+    <value>Queue Tracker allows you to observe queues and waiting times for amusement parks, authorities and other institutions.</value>
+  </data>
+  <data name="AboutSecondParagraph" xml:space="preserve">
+    <value>We are small and brand new software company focused to mobile applications. If you want to support us please share this app or visit our websites for more information.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>About Queue Tracker</value>
+  </data>
+  <data name="Tutorial01Page01Sentence01" xml:space="preserve">
+    <value>Simply </value>
+  </data>
+  <data name="Tutorial01Page01Sentence02" xml:space="preserve">
+    <value>manage and search</value>
+  </data>
+  <data name="Tutorial01Page01Sentence03" xml:space="preserve">
+    <value> waiting times for amusement parks, authorities and other institutions.</value>
+  </data>
+  <data name="Tutorial01Page02Sentence01" xml:space="preserve">
+    <value>Queues can be found and shown on </value>
+  </data>
+  <data name="Tutorial01Page02Sentence02" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="Tutorial01Page02Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Tutorial02Page01Sentence01" xml:space="preserve">
+    <value>When you arrive to the end of queue, a measurement is triggered by </value>
+  </data>
+  <data name="Tutorial02Page01Sentence02" xml:space="preserve">
+    <value>measure</value>
+  </data>
+  <data name="Tutorial02Page01Sentence03" xml:space="preserve">
+    <value> button.</value>
+  </data>
+  <data name="Tutorial02Page02Sentence01" xml:space="preserve">
+    <value>During waiting in a queue the app can be used, hung up or closed.</value>
+  </data>
+  <data name="Tutorial03Page01Sentence01" xml:space="preserve">
+    <value>In the moment when you are first in line, the measurement can be finished by </value>
+  </data>
+  <data name="Tutorial03Page01Sentence02" xml:space="preserve">
+    <value>the same button</value>
+  </data>
+  <data name="Tutorial03Page01Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Tutorial03Page02Sentence01" xml:space="preserve">
+    <value>All users will see updated state of the queue.</value>
+  </data>
+  <data name="Tutorial04Page01Sentence01" xml:space="preserve">
+    <value>Everything works on </value>
+  </data>
+  <data name="Tutorial04Page01Sentence02" xml:space="preserve">
+    <value>principle C2C</value>
+  </data>
+  <data name="Tutorial04Page01Sentence03" xml:space="preserve">
+    <value> (user for user), content is generated by active users.</value>
+  </data>
+  <data name="Tutorial04Page02Sentence01" xml:space="preserve">
+    <value>The more app will be used the more accurate times, help us to </value>
+  </data>
+  <data name="Tutorial04Page02Sentence02" xml:space="preserve">
+    <value>share it</value>
+  </data>
+  <data name="Tutorial04Page02Sentence03" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="TutorialDoneButton" xml:space="preserve">
+    <value>OK, got it</value>
+  </data>
+  <data name="TutorialNextButton" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="TutorialShareButton" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="TutorialSkipAllButton" xml:space="preserve">
+    <value>Skip all</value>
+  </data>
+  <data name="TutorialTitle" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="AboutShareButton" xml:space="preserve">
+    <value>share</value>
+  </data>
+  <data name="AboutWebsiteButton" xml:space="preserve">
+    <value>website</value>
+  </data>
+  <data name="CreatePlaceEntryInitialsPlaceholderAndroid" xml:space="preserve">
+    <value>Initials</value>
+  </data>
+  <data name="CreatePlaceEntryInitialsPlaceholderIos" xml:space="preserve">
+    <value>ABC</value>
+  </data>
+  <data name="CreatePlaceEntryNamePlaceholderAndroid" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreatePlaceEntryNamePlaceholderIos" xml:space="preserve">
+    <value>New queue</value>
+  </data>
+  <data name="CreatePlaceHeader" xml:space="preserve">
+    <value>NEW QUEUE ON YOUR POSITION</value>
+  </data>
+  <data name="CreateNewPlaceAction" xml:space="preserve">
+    <value>Create new queue</value>
+  </data>
+  <data name="HelpUsOnRecordText" xml:space="preserve">
+    <value>Let friends know in which queue you are stacked.</value>
+  </data>
+  <data name="RoundedSaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="RoundedShareButton" xml:space="preserve">
+    <value>SHARE</value>
+  </data>
+  <data name="RoundedVisitUsButton" xml:space="preserve">
+    <value>VISIT US</value>
+  </data>
+  <data name="StartRecordFinishButton" xml:space="preserve">
+    <value>FINISH</value>
+  </data>
+  <data name="TipText01" xml:space="preserve">
+    <value>You can use your device for other activities, but don’t forget to come back, when you're first in line. (:</value>
+  </data>
+  <data name="TipText02" xml:space="preserve">
+    <value>Queues can be searched on main page in search box.</value>
+  </data>
+  <data name="TipText03" xml:space="preserve">
+    <value>Queues can be shown and searched on a map, you can navigate to map from main page.</value>
+  </data>
+  <data name="TipText04" xml:space="preserve">
+    <value>New queue can be created from dialog of measurable queues (always the last item in a list).</value>
+  </data>
+  <data name="TipText05" xml:space="preserve">
+    <value>The more app will be used the more accurate times, help us to share it.</value>
+  </data>
+  <data name="TipText06" xml:space="preserve">
+    <value>During measurement of this queue you can share your pain with friends on facebook. (:</value>
+  </data>
+  <data name="TipText07" xml:space="preserve">
+    <value>When you are in an amusement park, the app will show you the queues for the most attractive attractions.</value>
+  </data>
+  <data name="TipText08" xml:space="preserve">
+    <value>Each parent place, e.g. amusement park or ski resort can be opened and children queues will be shown.</value>
+  </data>
+  <data name="TipText09" xml:space="preserve">
+    <value>We are expanding and updating the application all the time, new features are coming!</value>
+  </data>
+  <data name="TipText10" xml:space="preserve">
+    <value>After a lot of measurements by active users the app will contain queues history and prediction of them.</value>
+  </data>
+  <data name="TimeDurationTitle" xml:space="preserve">
+    <value>Time in queue</value>
+  </data>
+  <data name="TipTitle" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="NoNetworkPageMessage" xml:space="preserve">
+    <value>Oh no... the internet connection is gone, please check the settings.</value>
+  </data>
+  <data name="NoNetworkDialogDismissButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NoNetworkDialogMessage" xml:space="preserve">
+    <value>Turn on mobile data or use Wi-Fi to access data.</value>
+  </data>
+  <data name="NoNetworkDialogSettingsButton" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="NoNetworkDialogTitle" xml:space="preserve">
+    <value>Mobile Data is Turned Off</value>
+  </data>
+  <data name="CreatePlaceValidationNoLocation" xml:space="preserve">
+    <value>Location permission for the app must be granted and location service turned on to be able to create new places.</value>
+  </data>
+  <data name="CreatePlaceValidationNoNetwork" xml:space="preserve">
+    <value>Turn on mobile data or use Wi-Fi to be able to create new place.</value>
+  </data>
+  <data name="TipText11" xml:space="preserve">
+    <value>We are preparing a special feature for ski resorts with fully automatic measurement.</value>
+  </data>
+  <data name="TipText12" xml:space="preserve">
+    <value>The application contains many predefined places, e.g. amusement parks, ski resorts, offices, borders or airports.</value>
+  </data>
+  <data name="TipText13" xml:space="preserve">
+    <value>The database of queues is always expanding and you can be contributor, as well.</value>
+  </data>
+  <data name="TipText14" xml:space="preserve">
+    <value>Are you organizing a crowded event? Do you want to serve a precise waiting times to the visitors? Contact us!</value>
+  </data>
+  <data name="AdvertisementTitle" xml:space="preserve">
+    <value>Advertisement</value>
+  </data>
+  <data name="CreatePlaceValidationInitialsMinLength" xml:space="preserve">
+    <value>Place initials need to be filled in.</value>
+  </data>
+  <data name="PlaceCellDeleteMenuAction" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PlaceCellMeasureMenuAction" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="PlaceCellOpenMenuAction" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PlaceDeletedMessage" xml:space="preserve">
+    <value>The place has been deleted.</value>
+  </data>
+  <data name="PlaceSelectionNoLocation" xml:space="preserve">
+    <value>You can't measure queues if you don't grand a permission or location service is turned off.</value>
+  </data>
+</root>
