@@ -165,7 +165,7 @@
   <data name="QueueFormat" xml:space="preserve">
     <value>{0} min</value>
   </data>
-  <data name="QueueParentFormat" xml:space="preserve">
+  <data name="QueueParentRangeFormat" xml:space="preserve">
     <value>{0} to {1} min</value>
   </data>
   <data name="QueueUnmeasured" xml:space="preserve">
@@ -194,5 +194,17 @@
   </data>
   <data name="NoLocationDialogTitle" xml:space="preserve">
     <value>Location service</value>
+  </data>
+  <data name="QueueParentSingleFormat" xml:space="preserve">
+    <value>up to {1} min</value>
+  </data>
+  <data name="QueueParentSingleZeroFormat" xml:space="preserve">
+    <value>all 0 min</value>
+  </data>
+  <data name="QueueStateClosed" xml:space="preserve">
+    <value>closed</value>
+  </data>
+  <data name="QueueStateOutOfOrder" xml:space="preserve">
+    <value>maintenance</value>
   </data>
 </root>
