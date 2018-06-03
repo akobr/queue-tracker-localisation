@@ -136,7 +136,7 @@
     <value>In queue</value>
   </data>
   <data name="MeasurementCanceledMessage" xml:space="preserve">
-    <value>The messurement has been canceled.</value>
+    <value>The measurement has been canceled.</value>
   </data>
   <data name="MeasurementErrorMessageSameQueue" xml:space="preserve">
     <value>Do a measurement in the same queue in a row is prohibited.</value>
@@ -446,5 +446,8 @@
   </data>
   <data name="PlaceSelectionNoLocation" xml:space="preserve">
     <value>You can't measure queues if you don't grand a permission or location service is turned off.</value>
+  </data>
+  <data name="SearchBarPlaceHolder" xml:space="preserve">
+    <value>Search</value>
   </data>
 </root>

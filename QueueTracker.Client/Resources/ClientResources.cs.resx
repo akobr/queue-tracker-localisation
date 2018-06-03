@@ -447,4 +447,7 @@
   <data name="PlaceSelectionNoLocation" xml:space="preserve">
     <value>Fronty nelze měřit, pokud neudělíš aplikaci povolení či služba o poloze je vypnuta.</value>
   </data>
+  <data name="SearchBarPlaceHolder" xml:space="preserve">
+    <value>Hledat</value>
+  </data>
 </root>
