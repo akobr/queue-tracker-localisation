@@ -120,9 +120,6 @@
   <data name="MoreAbout" xml:space="preserve">
     <value>O aplikaci...</value>
   </data>
-  <data name="ActionHelpText" xml:space="preserve">
-    <value>Nyní lze zařízení použít pro jiné aktivity, ale nezapomeň se vrátit, až budeš první ve frontě :)</value>
-  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Zrušit</value>
   </data>
@@ -142,7 +139,7 @@
     <value>Druhé měření v řadě ve stejné frontě je zakázáno.</value>
   </data>
   <data name="MeasurementErrorMessageTime" xml:space="preserve">
-    <value>Měření lze vytvářet jen jednou za 4 minuty. Prosím vraťte se později.</value>
+    <value>Měření lze vytvářet jen jednou za 4 minuty. Prosím vrať se později.</value>
   </data>
   <data name="MeasurementThanksMessage" xml:space="preserve">
     <value>Díky za měření.</value>
@@ -151,7 +148,7 @@
     <value>Více možností</value>
   </data>
   <data name="NewPlaceErrorMessageTime" xml:space="preserve">
-    <value>Nové místo lze vytvořit jen jednou za 5 minut. Prosím vraťte se později.</value>
+    <value>Nové místo lze vytvořit jen jednou za 5 minut. Prosím vrať se později.</value>
   </data>
   <data name="RemainingTimeTitle" xml:space="preserve">
     <value>Zbývající čas (přibližně)</value>
@@ -340,7 +337,7 @@
     <value>Nová fronta</value>
   </data>
   <data name="CreatePlaceHeader" xml:space="preserve">
-    <value>NOVÁ FRONTA NA VAŠÍ POZICI</value>
+    <value>NOVÁ FRONTA NA TVÉ POZICI</value>
   </data>
   <data name="CreateNewPlaceAction" xml:space="preserve">
     <value>Vytvořit frontu</value>
@@ -400,7 +397,7 @@
     <value>OK</value>
   </data>
   <data name="NoNetworkDialogMessage" xml:space="preserve">
-    <value>Chcete-li načíst data, zapněte Mobilní data nebo použijte Wi-Fi.</value>
+    <value>Chceš-li načíst data, zapni Mobilní data nebo použij Wi-Fi.</value>
   </data>
   <data name="NoNetworkDialogSettingsButton" xml:space="preserve">
     <value>Nastavení</value>

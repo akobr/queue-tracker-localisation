@@ -120,9 +120,6 @@
   <data name="MoreAbout" xml:space="preserve">
     <value>About...</value>
   </data>
-  <data name="ActionHelpText" xml:space="preserve">
-    <value>You can use the device for other activities, but don’t forget to come back, when you're first in line :)</value>
-  </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
@@ -163,10 +160,10 @@
     <value>Share app...</value>
   </data>
   <data name="ShareRecordQuoteFormatWithoutValue" xml:space="preserve">
-    <value>Waiting in queue at {0}.</value>
+    <value>Waiting in the queue at {0}.</value>
   </data>
   <data name="ShareRecordQuoteFormatWithValue" xml:space="preserve">
-    <value>Waiting in queue at {0}, current waiting time is {1}.</value>
+    <value>Waiting in the queue at {0}, current waiting time is {1}.</value>
   </data>
   <data name="MoreTutorial" xml:space="preserve">
     <value>Tutorial...</value>
@@ -238,7 +235,7 @@
     <value>Queue Tracker allows you to observe queues and waiting times for amusement parks, authorities and other institutions.</value>
   </data>
   <data name="AboutSecondParagraph" xml:space="preserve">
-    <value>We are small and brand new software company focused to mobile applications. If you want to support us please share this app or visit our websites for more information.</value>
+    <value>We are small and brand new software company focused in mobile applications. If you want to support us please share this app or visit our websites for more information.</value>
   </data>
   <data name="AboutTitle" xml:space="preserve">
     <value>About Queue Tracker</value>
@@ -415,7 +412,7 @@
     <value>Turn on mobile data or use Wi-Fi to be able to create new place.</value>
   </data>
   <data name="TipText11" xml:space="preserve">
-    <value>We are preparing a special feature for ski resorts with fully automatic measurement.</value>
+    <value>We are preparing a special feature for ski resorts with a fully autonomous system of measurement.</value>
   </data>
   <data name="TipText12" xml:space="preserve">
     <value>The application contains many predefined places, e.g. amusement parks, ski resorts, offices, borders or airports.</value>
